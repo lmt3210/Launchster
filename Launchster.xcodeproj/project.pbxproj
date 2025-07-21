@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		4619402B24A00E61007E66D1 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 4619402A24A00E61007E66D1 /* Credits.html */; };
 		463B9A1D26A8AE57008D7D4F /* help in Resources */ = {isa = PBXBuildFile; fileRef = 463B9A1C26A8AE57008D7D4F /* help */; };
-		46690C332E1FE19300194C95 /* LTVersionCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 46690C322E1FE19300194C95 /* LTVersionCheck.m */; };
-		46690C372E1FE1CE00194C95 /* LTPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 46690C352E1FE1CE00194C95 /* LTPopup.m */; };
-		46690C382E1FE1CE00194C95 /* LTPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46690C362E1FE1CE00194C95 /* LTPopup.xib */; };
 		4693E483249BCABB000BCF25 /* ApplicationEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4693E482249BCABB000BCF25 /* ApplicationEntry.m */; };
 		46A8A9A8249E906D007E3684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A8A9A7249E906D007E3684 /* Assets.xcassets */; };
 		46A8A9B4249ECAA9007E3684 /* icon_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 46A8A9AD249ECAA9007E3684 /* icon_512x512.png */; };
@@ -21,6 +18,9 @@
 		46A8A9B8249ECAA9007E3684 /* icon_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 46A8A9B1249ECAA9007E3684 /* icon_128x128.png */; };
 		46A8A9B9249ECAA9007E3684 /* icon_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 46A8A9B2249ECAA9007E3684 /* icon_16x16.png */; };
 		46A8A9BA249ECAA9007E3684 /* icon_256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = 46A8A9B3249ECAA9007E3684 /* icon_256x256.png */; };
+		46FB5AE72989A6B00025E6E5 /* LTVersionCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FB5AE22989A6B00025E6E5 /* LTVersionCheck.m */; };
+		46FB5AE82989A6B00025E6E5 /* LTPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46FB5AE32989A6B00025E6E5 /* LTPopup.xib */; };
+		46FB5AE92989A6B00025E6E5 /* LTPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FB5AE42989A6B00025E6E5 /* LTPopup.m */; };
 		6890E1311BBB187100794317 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6890E1301BBB187100794317 /* AppDelegate.m */; };
 		6890E1341BBB187100794317 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6890E1331BBB187100794317 /* main.m */; };
 		6890E1391BBB187100794317 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6890E1371BBB187100794317 /* MainMenu.xib */; };
@@ -32,12 +32,6 @@
 /* Begin PBXFileReference section */
 		4619402A24A00E61007E66D1 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
 		463B9A1C26A8AE57008D7D4F /* help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = help; sourceTree = "<group>"; };
-		46690C312E1FE19300194C95 /* LTVersionCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTVersionCheck.h; sourceTree = "<group>"; };
-		46690C322E1FE19300194C95 /* LTVersionCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTVersionCheck.m; sourceTree = "<group>"; };
-		46690C342E1FE1CE00194C95 /* LTPopup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTPopup.h; sourceTree = "<group>"; };
-		46690C352E1FE1CE00194C95 /* LTPopup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTPopup.m; sourceTree = "<group>"; };
-		46690C362E1FE1CE00194C95 /* LTPopup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTPopup.xib; sourceTree = "<group>"; };
-		46690CAC2E25913700194C95 /* LTLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTLog.h; sourceTree = "<group>"; };
 		467E50F4249BF3D900B91D8F /* Launchster.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Launchster.entitlements; sourceTree = "<group>"; };
 		4693E481249BCAB2000BCF25 /* ApplicationEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationEntry.h; sourceTree = "<group>"; };
 		4693E482249BCABB000BCF25 /* ApplicationEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationEntry.m; sourceTree = "<group>"; };
@@ -49,6 +43,12 @@
 		46A8A9B1249ECAA9007E3684 /* icon_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_128x128.png; sourceTree = "<group>"; };
 		46A8A9B2249ECAA9007E3684 /* icon_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_16x16.png; sourceTree = "<group>"; };
 		46A8A9B3249ECAA9007E3684 /* icon_256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_256x256.png; sourceTree = "<group>"; };
+		46BDE6ED2E2E9DC300911F07 /* LTLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LTLog.h; path = ../LTCommon/LTLog.h; sourceTree = SOURCE_ROOT; };
+		46FB5AE22989A6B00025E6E5 /* LTVersionCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTVersionCheck.m; path = ../LTCommon/LTVersionCheck.m; sourceTree = "<group>"; };
+		46FB5AE32989A6B00025E6E5 /* LTPopup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LTPopup.xib; path = ../LTCommon/LTPopup.xib; sourceTree = "<group>"; };
+		46FB5AE42989A6B00025E6E5 /* LTPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTPopup.m; path = ../LTCommon/LTPopup.m; sourceTree = "<group>"; };
+		46FB5AE52989A6B00025E6E5 /* LTVersionCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTVersionCheck.h; path = ../LTCommon/LTVersionCheck.h; sourceTree = "<group>"; };
+		46FB5AE62989A6B00025E6E5 /* LTPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTPopup.h; path = ../LTCommon/LTPopup.h; sourceTree = "<group>"; };
 		6890E12C1BBB187100794317 /* Launchster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Launchster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6890E12F1BBB187100794317 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6890E1301BBB187100794317 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,10 +93,24 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		46FB5AE12989A6870025E6E5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				46BDE6ED2E2E9DC300911F07 /* LTLog.h */,
+				46FB5AE52989A6B00025E6E5 /* LTVersionCheck.h */,
+				46FB5AE22989A6B00025E6E5 /* LTVersionCheck.m */,
+				46FB5AE62989A6B00025E6E5 /* LTPopup.h */,
+				46FB5AE42989A6B00025E6E5 /* LTPopup.m */,
+				46FB5AE32989A6B00025E6E5 /* LTPopup.xib */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		6890E1231BBB187100794317 = {
 			isa = PBXGroup;
 			children = (
 				6890E12E1BBB187100794317 /* Source */,
+				46FB5AE12989A6870025E6E5 /* Common */,
 				467E50F4249BF3D900B91D8F /* Launchster.entitlements */,
 				6890E12D1BBB187100794317 /* Products */,
 			);
@@ -122,12 +136,6 @@
 				6890E15D1BBB18B200794317 /* KSCollectionViewItem.m */,
 				6890E1611BBB3B4200794317 /* KSBackgroundView.h */,
 				6890E1621BBB3B4200794317 /* KSBackgroundView.m */,
-				46690C312E1FE19300194C95 /* LTVersionCheck.h */,
-				46690C322E1FE19300194C95 /* LTVersionCheck.m */,
-				46690C342E1FE1CE00194C95 /* LTPopup.h */,
-				46690C352E1FE1CE00194C95 /* LTPopup.m */,
-				46690C362E1FE1CE00194C95 /* LTPopup.xib */,
-				46690CAC2E25913700194C95 /* LTLog.h */,
 				6890E1331BBB187100794317 /* main.m */,
 				4693E480249BB09B000BCF25 /* Resources */,
 			);
@@ -200,7 +208,7 @@
 				463B9A1D26A8AE57008D7D4F /* help in Resources */,
 				46A8A9B6249ECAA9007E3684 /* icon_32x32.png in Resources */,
 				4619402B24A00E61007E66D1 /* Credits.html in Resources */,
-				46690C382E1FE1CE00194C95 /* LTPopup.xib in Resources */,
+				46FB5AE82989A6B00025E6E5 /* LTPopup.xib in Resources */,
 				46A8A9B9249ECAA9007E3684 /* icon_16x16.png in Resources */,
 				46A8A9B4249ECAA9007E3684 /* icon_512x512.png in Resources */,
 				6890E1391BBB187100794317 /* MainMenu.xib in Resources */,
@@ -220,8 +228,8 @@
 				6890E15F1BBB18B200794317 /* KSCollectionViewItem.m in Sources */,
 				6890E1631BBB3B4200794317 /* KSBackgroundView.m in Sources */,
 				6890E1311BBB187100794317 /* AppDelegate.m in Sources */,
-				46690C372E1FE1CE00194C95 /* LTPopup.m in Sources */,
-				46690C332E1FE19300194C95 /* LTVersionCheck.m in Sources */,
+				46FB5AE92989A6B00025E6E5 /* LTPopup.m in Sources */,
+				46FB5AE72989A6B00025E6E5 /* LTVersionCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
