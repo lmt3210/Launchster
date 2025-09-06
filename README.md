@@ -5,10 +5,6 @@
 
 Launchster is a utility to display and open applications.
 
-## Downloads
-
-Releases can be downloaded [here](https://www.larrymtaylor.com/software.php).
-
 ## Dependencies
 Launchster requires LTCommon. It is available on GitHib 
 [here](https://github.com/lmt3210/LTCommon).
