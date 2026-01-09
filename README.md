@@ -1,4 +1,5 @@
 ![Icon](https://www.larrymtaylor.com/images/launchster-128.png)  
+
 # Launchster
 
 ## Description
@@ -6,6 +7,9 @@
 Launchster is a utility to display and open applications.
 
 ## Dependencies
+
+**Launchster must be compiled with Xcode version 16.x or earlier.** Compiling with Xcode version 26.x will force Liquid Glass "compatibility" and will make the UI difficult to read when running on macOS Tahoe.
+
 Launchster requires LTCommon. It is available on GitHib 
 [here](https://github.com/lmt3210/LTCommon).
 
@@ -39,7 +43,7 @@ and, 2) indents are four spaces.
 The code in this repository is licensed under the MIT license unless
 otherwise noted within specific files.
 
-Copyright © 2020-2025 Larry M. Taylor <software@larrymtaylor.com>
+Copyright &copy; 2020-2026 Larry M. Taylor <software@larrymtaylor.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
